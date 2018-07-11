@@ -1,0 +1,84 @@
+#start{
+	cursor:pointer;
+  display:block;
+  width:100px;
+  height:100px;
+  background:green;
+  font-size:3em;
+  color:white;
+  padding:10px;
+  text-align:center;
+  position:absolute;
+  left:150px;
+  top:250px;
+  z-index:2;
+}
+#info{
+	position:absolute;
+	left:50px;
+	top:50px;
+	width:80%;
+	height:200px;
+	background:red;
+	color:white;
+	font-size:1em;
+	z-index:5;
+	padding:10px;
+}
+
+#overlay{
+	position:absolute;
+	width:400px;
+	height:600px;
+	background:black;
+	left:0px;
+	top:0px;
+	opacity: 0.8;
+	z-index: 1;
+}
+
+#container {
+font-family:arial;
+position:relative;
+width:400px;
+height:600px;
+border:solid;
+margin:auto;
+}
+
+.boxes {
+position:relative;
+border:solid;
+width:80%;
+height:110px;
+margin:auto;
+margin-top:10px;
+}
+#target {
+  width:70px;
+  height:70px;
+  border:solid;
+  margin:auto;
+  margin-top:80px;
+}
+#first,#second,#third {
+  width:70px;
+  height:70px;
+  border:solid;
+  margin:auto;
+}
+
+#timer {
+position:absolute;
+width:100px;
+border:solid;
+top:5px;
+right:5px;
+}
+#time1,#time2,#time3 {
+  position:absolute;
+  width:80px;
+  border:solid;
+  right:20px;
+  top:20px;
+}

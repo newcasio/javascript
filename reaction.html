@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title>Reaction game</title>
+	<link rel="stylesheet" type="text/css" href="reaction.css">
+	<script src="reaction.js"></script>
+</head>
+
+
+<body>
+
+	<div id="container">
+		<div id="overlay">&nbsp;</div>
+		<div id="info">
+			<h1 id="heading">Matching Game</h1>
+			<p>Match the symbols with the top image</p>
+		</div>
+
+		<div id="start" onclick="go();">Press here to begin</div>
+		<div id="round"></div>
+		<div id="target"></div>
+
+		<div id="timer"></div>
+
+		<div class="boxes">
+
+			<div id="first" onClick="gotcha(0);"></div>
+
+			<div id="time1"></div>
+
+		</div>
+
+		<div class="boxes">
+
+			<div id="second" onClick="gotcha(1);"></div>
+
+			<div id="time2"></div>
+
+		</div>
+
+		<div class="boxes">
+
+			<div id="third" onClick="gotcha(2);"></div>
+
+			<div id="time3"></div>
+
+		</div>
+
+	</div>
+	<div>
+		<a href="reaction.html"><button id="restart" type="button">Restart</button></a>
+	</div>
+</body>
+</html>

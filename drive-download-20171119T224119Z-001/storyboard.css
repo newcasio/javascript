@@ -1,0 +1,94 @@
+#reaction{
+	position: absolute;
+	width:300px;
+	left:-100px;
+	
+	animation-name:reaction;
+	animation-duration:1s;
+	animation-fill-mode:forwards;
+}
+
+
+#tester{
+	position: absolute;
+	width:300px;
+	
+	right:-10px;
+	animation-name:tester;
+	animation-duration:1s;
+	animation-fill-mode:forwards;
+	
+}
+
+#info{
+	
+	position:relative;
+	top:-800px;
+	display:block;
+	margin:auto;
+	width:800px;
+	text-align: center;
+	font-size:2em;
+	text-align: center;
+	animation-name:info;
+	animation-duration:1s;
+	animation-delay:3s;
+	animation-fill-mode:forwards;
+}
+
+@keyframes info{
+	0%{top:-200px;}
+	100%{top:200px;}
+}
+
+@keyframes reaction{
+	0% {left:-100px;}
+	100%{left:200px;}
+}
+
+@keyframes tester{
+	0%{ right:-10px;}
+	100%{ right:100px;}
+}
+
+#title{
+	position:relative;
+	top:50px;
+	width:720px;
+	height:90px;
+	margin: auto;
+	background: green;
+	overflow:hidden;
+	animation-name:title;
+	animation-duration:1s;
+	animation-delay:2s;
+	animation-fill-mode:forwards;
+}
+
+@keyframes title{
+	0%{top:50px;}
+	100%{top:-200px;}
+}
+
+
+button{
+	position:relative;
+	top:-400px;
+	display:block;
+	margin:auto;
+	width:100px;
+	text-align: center;
+	font-size:2em;
+	background:yellow;
+	animation-name:button;
+	animation-duration:1s;
+	animation-delay:3s;
+	animation-fill-mode:forwards;
+	
+}
+
+@keyframes button{
+	0%{top:-200px;}
+	100%{top:200px;}
+}
+
